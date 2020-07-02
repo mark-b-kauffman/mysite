@@ -25,7 +25,7 @@ SECRET_KEY = 'qi2f0@_ny_u-z7kz)exi!2$rz&%r&&*aennt+44vw-hlc-__*e'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['aaambk.int.bbpd.io','localhost','127.0.0.1']
+ALLOWED_HOSTS = ['www.avinyet.com','aaambk.int.bbpd.io','localhost','127.0.0.1']
 
 
 # Application definition
@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'polls',
     'learnrest',
+    'sslserver',
 ]
 
 MIDDLEWARE = [
